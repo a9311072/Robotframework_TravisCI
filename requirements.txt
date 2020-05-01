@@ -27,7 +27,7 @@ PyYAML==5.1
 requests==2.21.0
 robotframework==3.1.2
 robotframework-angularjs==0.0.9
-robotframework-excellibrary==0.0.2
+#robotframework-excellibrary==0.0.2
 robotframework-httplibrary==0.4.2
 robotframework-requests==0.5.0
 robotframework-selenium2library==3.0.0
