@@ -10,6 +10,13 @@ deploy:
   script: bash deploy.sh
   on:
     branch: master
+    
+env:
+  global:
+    - RAILS_ENV=test
+    - DRIVER=selenium_chrome
+    - CHROME_BIN=/usr/local/bin/chromedriver
+    - USE_COVERALLS=TRUE
 
 install:
   - pip install --upgrade setuptools
