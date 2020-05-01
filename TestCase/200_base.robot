@@ -7,12 +7,13 @@ Library  XvfbRobot
 ${BROWSER}   		chrome
 ${SELSPEED}  		1s
 ${host}      		https://www.google.com
-${TMP_PATH}      	/tmp
+#${TMP_PATH}      	/tmp
 ${wait_time}     	15s
 
 
 *** Keywords ***
 Open Chrome Browser
+	Set Environment Variable  webdriver.chrome.driver  /usr/local/bin/chromedriver
     Start Virtual Display    1200    800
     ${options}  Evaluate  sys.modules['selenium.webdriver'].ChromeOptions()  sys, selenium.webdriver
     Call Method  ${options}  add_argument  --no-sandbox
