@@ -3,7 +3,7 @@ python:
   - "2.7"
   - "3.6"
 
-cache: pip
+#cache: pip
 
 #deploy:
 #  provider: script
