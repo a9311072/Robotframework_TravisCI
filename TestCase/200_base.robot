@@ -7,7 +7,7 @@ Library  XvfbRobot
 ${BROWSER}   		chrome
 ${SELSPEED}  		1s
 ${host}      		https://www.google.com
-#${TMP_PATH}      	/tmp
+${TMP_PATH}      	/tmp
 ${wait_time}     	15s
 
 
