@@ -12,9 +12,9 @@ sudo wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/gecko
 	&& mv geckodriver /usr/local/bin \
 	&& chmod a+x /usr/local/bin/geckodriver
 	
-sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
-	&& dpkg -i google-chrome*.deb \
-	&& rm google-chrome*.deb
+#sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+#	&& dpkg -i google-chrome*.deb \
+#	&& rm google-chrome*.deb
 	
 #sudo wget https://chromedriver.storage.googleapis.com/81.0.4044.69/chromedriver_linux64.zip \
 #	&& unzip chromedriver_linux64.zip \
