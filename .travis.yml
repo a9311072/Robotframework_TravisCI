@@ -8,4 +8,4 @@ install:
   - pip install -r requirements.txt
   
 script:
-  - robot TestCase/200_open_google.robot
+  - robot ./TestCase/200_open_google.robot
