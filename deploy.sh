@@ -6,11 +6,11 @@ sudo apt-get update \
 	#&& rm -rf /var/lib/apt/lists/*
 	
 
-sudo wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz \
-	&& tar xvzf geckodriver-*.tar.gz \
-	&& rm geckodriver-*.tar.gz \
-	&& mv geckodriver /usr/local/bin \
-	&& chmod a+x /usr/local/bin/geckodriver
+#sudo wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz \
+#	&& tar xvzf geckodriver-*.tar.gz \
+#	&& rm geckodriver-*.tar.gz \
+#	&& mv geckodriver /usr/local/bin \
+#	&& chmod a+x /usr/local/bin/geckodriver
 	
 #sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
 #	&& dpkg -i google-chrome*.deb \
