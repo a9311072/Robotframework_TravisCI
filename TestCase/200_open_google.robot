@@ -12,8 +12,8 @@ ${query_button}	      name=btnK
 *** Test Cases ***
 SampleTest
 	openbrowser     1200    800
-	type            ${query_context}
-	click           ${query_button}
+	# type            ${query_context}
+	# click           ${query_button}
 
 
 
