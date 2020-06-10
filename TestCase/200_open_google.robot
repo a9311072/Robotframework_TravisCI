@@ -6,8 +6,8 @@ Library  XvfbRobot
 Resource			200_base.robot
 
 *** Variables ***
-${query_context}      name = q
-${query_button}	      name = btnK
+${query_context}      name=q
+${query_button}	      name=btnK
 
 *** Test Cases ***
 SampleTest
