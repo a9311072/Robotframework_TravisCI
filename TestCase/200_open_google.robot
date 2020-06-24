@@ -12,5 +12,5 @@ ${query_button}	      name=btnK
 *** Test Cases ***
 SampleTest
 	openbrowser     1200    800
-	type    ${query_context}         ampos
+	type    ${query_context}         nctu
 	click   ${query_button}
