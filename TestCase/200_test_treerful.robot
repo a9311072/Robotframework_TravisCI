@@ -10,12 +10,11 @@ ${btn_booking}	      class=booking-submit
 ${btn_search_window}      class=search-window
 
 *** Test Cases ***
-SampleTest
+LinkToBookingPage
 	openbrowser     1920    1080
 	${res} =	Get Title
 	Log To Console 	${res}
 	click   ${btn_booking}
-
 BtnWindowTest
 	Wait Until Element Is Visible	${btn_search_window}
 	${res} =	Get Title
@@ -30,6 +29,5 @@ ClickBtnWindow
 	${res} = 	Get Value	xpath=//input[@name='window']
 	Should Be Equal	${res}	1
 	Log To Console	${res}
-
 CloseTest
-	close Browser
+	close Browser 	
