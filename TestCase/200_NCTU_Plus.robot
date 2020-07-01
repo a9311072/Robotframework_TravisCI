@@ -53,7 +53,7 @@ NCTU Plus Remove Course from Schedule
 
 *** Keywords ***
 Open NCTU Plus
-    Open Browser                ${host}     ${BROWSER}
+    openBrowser                 1200   800
     Maximize Browser Window
     click                       ${login_page}
     sleep                       1s
