@@ -1,6 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-Library  XvfbRobot
+#Library  XvfbRobot
 
 *** Settings ***
 Resource			    200_base.robot
