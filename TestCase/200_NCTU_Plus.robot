@@ -8,7 +8,7 @@ Test Teardown      	    Close All Browsers
 
 
 *** Variables ***
-${NCTU_PLUS}                    http://corsimulate.nctu.me/
+${NCTU_PLUS}                    'http://corsimulate.nctu.me/'
 ${schedule_page}                xpath = //*[@id="nav"]/a[2]
 ${login_page}                   xpath = //*[@id="nav"]/a[3]
 ${username}                     id= username
