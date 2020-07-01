@@ -8,7 +8,7 @@ Test Teardown      	    Close All Browsers
 
 
 *** Variables ***
-# ${host}                         http://corsimulate.nctu.me/
+${NCTU_PLUS}                    http://corsimulate.nctu.me/
 ${schedule_page}                xpath = //*[@id="nav"]/a[2]
 ${login_page}                   xpath = //*[@id="nav"]/a[3]
 ${username}                     id= username
@@ -54,7 +54,7 @@ NCTU Plus Remove Course from Schedule
 
 *** Keywords ***
 Open NCTU Plus
-    Open Browser                ${host}     ${BROWSER}
+    Open Browser                ${NCTU_PLUS}     ${BROWSER}
     Maximize Browser Window
     click                       ${login_page}
     sleep                       1s
