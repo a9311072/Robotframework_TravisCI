@@ -6,7 +6,6 @@ Library  XvfbRobot
 Resource			    200_base.robot
 Test Teardown      	    Close All Browsers
 
-
 *** Variables ***
 ${schedule_page}                xpath = //*[@id="nav"]/a[2]
 ${login_page}                   xpath = //*[@id="nav"]/a[3]
