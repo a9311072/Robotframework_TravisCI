@@ -26,7 +26,8 @@ ${empty_class}                  ""
 
 *** Test Cases ***
 NCTU Plus Schedule
-    Open Browser                    ${host}     ${BROWSER}
+    #Open Browser                    ${host}     ${BROWSER}
+    openBrowser                     1200   800
     Maximize Browser Window
     Open Course Schedule
     Search And Select The Course
