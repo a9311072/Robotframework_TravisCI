@@ -6,7 +6,7 @@ Library  XvfbRobot
 *** Variables ***
 ${BROWSER}   		chrome
 ${SELSPEED}  		1s
-${host}      		https://www.google.com
+${host}      		http://corsimulate.nctu.me/
 ${TMP_PATH}      	/tmp
 ${wait_time}     	15s
 
